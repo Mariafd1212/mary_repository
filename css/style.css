@@ -2,10 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
-
+html {
+  min-height: 100%;
+  position: relative;
+}
 body {
   font-family: "Montserrat", sans-serif;
-  /* width: 2000px; */
   background-size: cover;
   color: whitesmoke;
   background-color: "rgb(85,7,115)";
@@ -15,7 +17,8 @@ body {
     rgba(182, 38, 198, 1) 35%,
     rgba(223, 207, 221, 1) 100%
   );
-  margin: 20px auto;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -136,6 +139,12 @@ nav .nav_item a:hover {
   text-align: center;
   background-size: cover;
   margin-left: 1rem;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
 }
 
 .formulario {
