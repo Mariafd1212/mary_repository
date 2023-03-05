@@ -159,5 +159,9 @@ nav .nav_item a:hover {
   overflow: auto;
 }
 
+.card {
+  width: 15rem;
+}
+
 @media (min-width: 768px) {
 } ;
