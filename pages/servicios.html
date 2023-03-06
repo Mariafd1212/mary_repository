@@ -2,46 +2,102 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	  <!-- CSS -->
-	  <link rel="stylesheet" href="../css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  	<!-- Google Font -->
-	  <link rel="preconnect" href="https://fonts.googleapis.com">
-	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-	<!-- Font Awesome iconos -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<!-- Favicon -->
-  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon"/>
-    <title>Learning Languages</title>
-    </head>
-    <body>
-    <!-- fila de logo + nav -->
-    <header class="p-5">
-		<h1 class="logo_title">Learning Languages</h1>
-		  	<a href="index.html#header">
-			<img class="logo" src="../img/logo.png" alt="Logo de la Empresa">
-			  </a>
-      	<nav>
-        	<ul class="nav_list">
-          		<li class="nav_item">
-					<a class="nav_link" href="../index.html">🏠Inicio</a>
-				</li>
-				<li class="nav_item">
-					<a class="nav_link" href="./funciones.html">Funciones</a>
-				</li>
-          		<li class="nav_item">
-					<a class="nav_link" href="../servicios.html">Servicios</a>
-				</li>
-          		<li class="nav_item">
-					<a class="nav_link" href="./ubicacion.html">Ubicación</a>
-				</li>
-          		<li class="nav_item">
-					<a class="nav_link" href="./contacto.html">Contacto</a>
-				</li>
-   			 </ul>
-		</nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome iconos 1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Bootstrap 2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/logo_idiomass.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <a href="index.html#header">
+        <img
+          class="logo"
+          src="../img/logo_idiomass.png"
+          alt="Logo de la Empresa"
+        />
+      </a>
+      <!-- Inicio de Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">📖Nice Languages</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html"
+                  >🏠Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/funciones.html"
+                  >⚙️Funciones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/servicios.html"
+                  >📚Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/ubicacion.html "
+                  >📌Ubicación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/contacto.html"
+                  >☎️Contacto</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Fin de Navbar -->
     </header>
     <main>
       <div class="container5 p-5 m-5 text-sm-start d-inline-flex">
