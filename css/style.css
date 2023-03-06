@@ -27,6 +27,7 @@ body {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
+  background-color: black;
 }
 
 header {
@@ -162,6 +163,10 @@ nav .nav_item a:hover {
 
 .card {
   width: 15rem;
+}
+
+.accordion-body {
+  background-color: hotpink;
 }
 
 /*# sourceMappingURL=style.css.map */
