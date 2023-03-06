@@ -30,6 +30,7 @@ body {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
+  background-color: black;
 }
 
 header {
@@ -161,4 +162,9 @@ nav .nav_item a:hover {
 
 .card {
   width: 15rem;
+}
+
+.accordion-item {
+  background-color: black;
+  text-decoration: dotted;
 }
