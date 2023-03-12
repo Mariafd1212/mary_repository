@@ -7,11 +7,10 @@ html {
   position: relative;
   body {
     font-family: "Montserrat", sans-serif;
-    background-size: cover;
-    color: whitesmoke;
+    color: white;
     background-color: "rgb(85,7,115)";
     background: linear-gradient(
-      90deg,
+      80deg,
       rgba(85, 7, 115, 1) 0%,
       rgba(182, 38, 198, 1) 35%,
       rgba(223, 207, 221, 1) 100%
@@ -24,13 +23,13 @@ html {
     h6 {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     }
-    header {
-      padding: 0.5rem 0;
-      top: 0;
-      z-index: 2;
+    .logo {
+      width: 20%;
+    }
+    @media screen and (min-width: 768px) {
       .logo {
-        width: 170px;
-        height: 170px;
+        width: 154px;
+        height: 154px;
       }
     }
   }

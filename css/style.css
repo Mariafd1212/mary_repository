@@ -3,129 +3,80 @@
   padding: 0px;
 }
 
+.container-boxes {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+.container-boxes .card {
+  background-color: rgb(87, 38, 133);
+  padding: 20px;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-table;
+  width: 15rem;
+}
+.container-boxes .card .card-img-top {
+  border-radius: 80%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 html {
   min-height: 100%;
   position: relative;
 }
-
-header {
-  padding: 0.5rem 0;
-  top: 0;
-  z-index: 2;
-}
-
-body {
+html body {
   font-family: "Montserrat", sans-serif;
-  background-size: cover;
-  color: whitesmoke;
-  background-color: "rgb(85,7,115)";
-  background: linear-gradient(90deg, rgb(85, 7, 115) 0%, rgb(182, 38, 198) 35%, rgb(223, 207, 221) 100%);
-  margin: 0;
-  margin-bottom: 40px;
-}
-
-.logo {
-  width: 170px;
-  height: 170px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-.nav_list {
-  list-style-type: none;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 0px;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.nav_item {
-  float: left;
-  display: flexbox;
-  overflow: auto;
-}
-
-.nav_link {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  color: whitesmoke;
-  text-align: center;
-  padding: 16px 16px;
-}
-
-nav .nav_item a:hover {
-  color: rgb(146, 34, 140);
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-  background-color: black;
-}
-
-.img-box {
-  position: relative;
-  text-align: center;
-  box-sizing: border-box;
-  margin-top: 50px;
-}
-
-.idiomas_title {
-  font-size: 60px;
-  background-color: none;
   color: white;
-  text-align: center;
-  padding: 30px;
-  margin: 50px;
-  text-decoration: underline;
+  background-color: "rgb(85,7,115)";
+  background: linear-gradient(80deg, rgb(85, 7, 115) 0%, rgb(182, 38, 198) 35%, rgb(223, 207, 221) 100%);
+}
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html body .logo {
+  width: 20%;
+}
+@media screen and (min-width: 768px) {
+  html body .logo {
+    width: 154px;
+    height: 154px;
+  }
 }
 
-.logo_idiomas {
-  width: 120px;
-  height: 120px;
-  text-align: center;
-  display: flexbox;
-  border-radius: 50%;
-}
-
-.lang_title {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.box_langs {
-  background-color: rgb(155, 61, 127);
-  padding: 30px;
-  line-height: 1.5rem;
-  width: 300px;
-  height: 400px;
+.navbar {
+  /* display: flex; */
+  font-size: 1.5rem;
+  justify-content: space-between;
+  background-color: rgb(51, 21, 65);
+  border-style: solid;
+  border-color: rgb(102, 21, 139);
+  list-style-type: none;
   overflow: hidden;
-  text-align: start;
-  margin: 15px;
-  margin-bottom: 20px;
-  display: inline-table;
-  border-radius: 20%;
-  border-style: ridge;
 }
-
-.card {
-  width: 15rem;
+.navbar .navbar-nav a:hover {
+  color: magenta;
+  font-weight: bolder;
 }
-
-* {
-  margin: 0px;
-  padding: 0px;
+.navbar .navbar-nav .nav-link {
+  color: magenta;
+}
+.navbar .navbar-nav .opcion {
+  color: rgb(190, 184, 190);
+}
+.navbar .navbar-nav .opcion .elegido {
+  color: rgb(171, 173, 29);
+  font-weight: bolder;
 }
 
 * {
@@ -136,24 +87,38 @@ nav .nav_item a:hover {
 .footer {
   text-align: center;
   background-size: cover;
-  margin-left: 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 40px;
   color: white;
 }
-
-.formulario {
+.footer .formulario {
   color: rgb(41, 3, 30);
 }
-
-.redes_title {
+.footer .redes_title {
   color: rgb(206, 172, 196);
-  background-color: purple;
-  font-size: medium;
-  background-size: cover;
-  overflow: auto;
+  background-color: rgb(15, 4, 15);
+}
+.footer .iconos {
+  background-color: rgb(15, 4, 15);
+}
+.footer .iconos .icon {
+  width: 20rem;
+  height: 20rem;
+  color: purple;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.imagen_principal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.imagen_principal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+/*# sourceMappingURL=funciones.css.map */

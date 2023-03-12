@@ -1,18 +1,27 @@
-.nav {
-  display: flex;
-  justify-items: auto;
+.navbar {
+  /* display: flex; */
+  font-size: 1.5rem;
+  justify-content: space-between;
+  background-color: rgb(51, 21, 65);
   border-style: solid;
-  border-color: rgb(207, 55, 0);
-  border-radius: 10px;
+  border-color: rgb(102, 21, 139);
   list-style-type: none;
-  margin-left: 100px;
-  margin-right: 100px;
   overflow: hidden;
-  display: inline-block;
-  .nav_item {
-    color: rgb(146, 34, 140);
-    float: left;
-    display: flexbox;
-    overflow: auto;
+
+  .navbar-nav {
+    a:hover {
+      color: magenta;
+      font-weight: bolder;
+    }
+    .nav-link {
+      color: magenta;
+    }
+    .opcion {
+      color: rgb(190, 184, 190);
+      .elegido {
+        color: rgb(171, 173, 29);
+        font-weight: bolder;
+      }
+    }
   }
 }
