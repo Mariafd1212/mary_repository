@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/style.css" />
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,9 +25,11 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- CSS Linked -->
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/img/logo_idiomass.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../img/logo_idiomass.png" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -36,25 +37,17 @@
       <a href="/index.html">
         <img
           class="logo"
-          src="/img/logo_idiomass.png"
+          src="../img/logo_idiomass.png"
           alt="Logo de la Empresa"
         />
       </a>
       <!-- Inicio de Navbar -->
-      <nav class="navbar navbar-expand-lg sticky-sm-top sticky-md-top sticky-lg-top">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="menu collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link opcion" href="/index.html"
@@ -97,35 +90,39 @@
         </div>
       </nav>
       <!-- Fin de Navbar -->
+      <!-- Inicio de Ubicación -->
     </header>
 	<main>
-    <h1 class="locacion_title">¿Donde estamos ubicados?</h1>
-	<p>
-		Dirección: Billinghsd 25467 Piso 54676 <br>
-		14435 Buenos Aires <br>
-		Teléfono:
-		011 4821-654665 <br>
-		Horario de apertura:
-		Lunes-viernes de 9 a 00hs <br>
-		Sábados de 10 a 20 hs <br>
-		Si tenés alguna pregunta con respecto a tu curso reservado, llamá a nuestro equipo de atención al cliente al (011) 48214900 opción 1, o envianos un whatsapp al +54911341265461 o un mail  y te ayudaremos
-	</p>
-	<div class="mapa img-fluid w-50 d-sm-flex">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0991514685284!2d-58.3784721651123!3d-34.601654199999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccf4a5be6f%3A0x97ebb6aac5198f6c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1673999833521!5m2!1ses!2sar"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe></div>
+    <div class="map">
+      <h1 class="locacion_title text-center m-3">¿Donde estamos ubicados?</h1>
+      <p class="direccion text-center p-5 lh-lg">
+        Dirección: Billinghsd 25467 Piso 54676 
+        14435 Buenos Aires <br>
+        Teléfono:
+        011 4821-654665 <br>
+        Horario de apertura: <br>
+        Lunes-viernes de 9 a 00hs
+        Sábados de 10 a 20 hs <br>
+        Si tenés alguna pregunta con respecto a tu curso reservado, llamá a nuestro equipo de atención al cliente al (011) 48214900 opción 1, o envianos un whatsapp al +54911341265461 o un mail  y te ayudaremos
+      </p>
+      <div class="mapa col-xs-12 col-sm-10 col-md-8 col-lg-6 d-flex m-5 p-5 justify-content-end">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0991514685284!2d-58.3784721651123!3d-34.601654199999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccf4a5be6f%3A0x97ebb6aac5198f6c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1673999833521!5m2!1ses!2sar"
+          width="350"
+          height="400"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
         <!-- inicio de footer -->
         <footer class="footer">
-          <a class="formulario"
-            href="./pages/contacto.html">CONTACTANOS
+          <a class="form_footer"
+            href="../pages/contacto.html">CONTACTANOS
           </a>
-        <div class="redes_title">Visitanos en Nuestras Redes Sociales</div>
+          <div class="redes_title">Visitanos en Nuestras Redes Sociales</div>
           <div class="iconos">
             <a class="icon" href="#">
             <i class="fa-brands fa-instagram"></i>"</a>

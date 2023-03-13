@@ -42,20 +42,12 @@
         />
       </a>
       <!-- Inicio de Navbar -->
-      <nav class="navbar navbar-expand-lg sticky-sm-top sticky-md-top sticky-lg-top">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="menu collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link opcion" href="/index.html"
@@ -97,61 +89,72 @@
           </div>
         </div>
       </nav>
-      <!-- Fin de Navbar -->
     </header>
+      <!-- Fin de Navbar y Header-->
+
 	  <main>
-    <h1>Contactanos</h1>
-    <!-- Formulario -->
-    <form action="#">
-      <fieldset>
-        <legend class="form_title">Envíe su mensaje</legend>
-        <div class="apellido_form">
-          <label for="apellido">Apellido:</label>
-          <input type="text" name="apellido"/>
-        </div>
+        <h1 class=" formulario d-flex justify-content-center mt-4 form_title">Contactanos</h1>
+      <!-- Formulario -->
+      <div class="formulario col-sm-12 col-md-12 col-lg-12 mb-5 p-3 d-flex grid-gap 3 justify-content-center">
+        <form action="#">
+          <fieldset>
+            <legend>Envíe su mensaje</legend>
+            <div class="campos">
+              <label for="nombre">Nombre Completo:</label>
+              <input type="text" name="nombre"/>
+            </div>
+
+            <div class="campos">
+              <label for="edad">Edad:</label>
+              <input type="text" name="edad"/>
+            </div>
+
+            <div class="campos">
+              <label for="mail">Correo electrónico:</label>
+              <input type="mail" name="mail"/>
+            </div>
+
+            <div class="campos">
+              <label for="idioma">¿Que idioma deseas estudiar?</label>
+                <select name="letra" id="letra">
+                  <option value="blank"></option>
+                  <option value="frances">Francés</option>
+                  <option value="aleman">Alemán</option>
+                  <option value="japones">Japonés</option>
+                </select>
+            </div>
+
+            <div class="campos">
+              <label for="level">Nivel de Idioma:</label>
+                <select name="idiomas" id="idiomas">
+                  <option value="blank"></option>
+                  <option value="A2">A2</option>
+                  <option value="B1">B1</option>
+                  <option value="B2">B2</option>
+                  <option value="C1">C1</option>
+                  <option value="C2">C2</option>
+                </select>
+            </div>
+
+            <div class="campos">
+              <label for="mensaje">Mensaje:</label>
+              <textarea name="mensaje" id="ms" cols="30" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </fieldset>
+        </form>
       </div>
-      <div class="edad_form">
-        <label for="edad">Edad:</label>
-        <input type="text" name="edad"/>
-      </div>
-      <div class="edad_form">
-        <label for="mail">Correo electrónico:</label>
-        <input type="mail" name="mail"/>
-      </div>
-          <label>¿Que idioma deseas estudiar?</label>
-          <select name="letra" id="letra">
-            <option value="blank"></option>
-            <option value="frances">Francés</option>
-            <option value="aleman">Alemán</option>
-            <option value="japones">Japonés</option>
-          </select>
-        <div>
-          <label for="idiomas">Nivel de Idioma:</label>
-          <select name="idiomas" id="idiomas">
-            <option value="blank"></option>
-            <option value="A2">A2</option>
-            <option value="B1">B1</option>
-            <option value="B2">B2</option>
-            <option value="C1">C1</option>
-            <option value="C2">C2</option>
-          </select>
-        </div>
-        <div>
-          <label for="mensaje">Mensaje:</label>
-          <textarea name="mensaje" id="ms" cols="30" rows="10"></textarea>
-        </div>
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Borrar" />
-      </fieldset>
-      <!-- Fin de formulario -->
-    </form>
-  </main>
+    </main>
+        <!-- Fin de formulario -->
+
         <!-- inicio de footer -->
         <footer class="footer">
-          <a class="formulario"
-            href="./pages/contacto.html">CONTACTANOS
+          <a class="form_footer"
+            href="./contacto.html">CONTACTANOS
           </a>
-        <div class="redes_title">Visitanos en Nuestras Redes Sociales</div>
+          <div class="redes_title">Visitanos en Nuestras Redes Sociales</div>
           <div class="iconos">
             <a class="icon" href="#">
             <i class="fa-brands fa-instagram"></i>"</a>

@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-boxes {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+.container-boxes .card {
+  background-color: rgb(87, 38, 133);
+  padding: 20px;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-table;
+  width: 15rem;
+}
+.container-boxes .card .card-img-top {
+  border-radius: 80%;
+}
+
+.navbar {
+  background-color: rgb(51, 21, 65);
+  border-color: rgb(102, 21, 139);
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: "Franklin Gothic Medium";
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+.form_title {
+  color: rgb(253, 247, 253);
+}
+
+.formulario {
+  background-color: rgb(81, 21, 88);
+  border-color: rgb(26, 5, 32);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+html body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: linear-gradient(80deg, rgb(85, 7, 115) 0%, rgb(182, 38, 198) 35%, rgb(223, 207, 221) 100%);
+}
+html body .logo {
+  width: 20%;
+}
+@media screen and (min-width: 768px) {
+  html body .logo {
+    width: 154px;
+    height: 154px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html body .table {
+    width: 98%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  html body .p {
+    font-size: smaller;
+  }
+}
+@media screen and (min-width: 768px) {
+  html body .p {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 992px) {
+  html body .p {
+    font-size: large;
+  }
+}
+
+.navbar {
+  font-size: 1.5rem;
+  justify-content: space-between;
+  border-style: solid;
+  list-style-type: none;
+  overflow: hidden;
+}
+.navbar .navbar-nav a:hover {
+  color: magenta;
+  font-weight: bolder;
+}
+.navbar .navbar-nav .nav-link {
+  color: magenta;
+}
+.navbar .navbar-nav .opcion {
+  color: rgb(190, 184, 190);
+}
+.navbar .navbar-nav .opcion .elegido {
+  color: rgb(171, 173, 29);
+  font-weight: bolder;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  text-align: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+.footer .formulario {
+  color: rgb(41, 3, 30);
+}
+.footer .redes_title {
+  color: rgb(206, 172, 196);
+  background-color: rgb(15, 4, 15);
+}
+.footer .iconos {
+  background-color: rgb(15, 4, 15);
+}
+.footer .iconos .icon {
+  width: 20rem;
+  height: 20rem;
+  color: purple;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.imagen_principal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: purple;
+}
+
+p {
+  color: rgb(230, 163, 230);
+}
+
+/*# sourceMappingURL=style.css.map */

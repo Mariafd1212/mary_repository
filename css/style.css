@@ -21,6 +21,38 @@
   border-radius: 80%;
 }
 
+.navbar {
+  background-color: rgb(51, 21, 65);
+  border-color: rgb(102, 21, 139);
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: "Franklin Gothic Medium";
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+.form_title {
+  color: rgb(253, 247, 253);
+}
+
+.formulario {
+  background-color: rgb(81, 21, 88);
+  border-color: rgb(26, 5, 32);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -33,16 +65,7 @@ html {
 html body {
   font-family: "Montserrat", sans-serif;
   color: white;
-  background-color: "rgb(85,7,115)";
   background: linear-gradient(80deg, rgb(85, 7, 115) 0%, rgb(182, 38, 198) 35%, rgb(223, 207, 221) 100%);
-}
-html body h1,
-html body h2,
-html body h3,
-html body h4,
-html body h5,
-html body h6 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 html body .logo {
   width: 20%;
@@ -53,14 +76,34 @@ html body .logo {
     height: 154px;
   }
 }
+@media screen and (min-width: 768px) {
+  html body .table {
+    width: 98%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  html body .p {
+    font-size: smaller;
+  }
+}
+@media screen and (min-width: 768px) {
+  html body .p {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 992px) {
+  html body .p {
+    font-size: large;
+  }
+}
 
 .navbar {
-  /* display: flex; */
   font-size: 1.5rem;
   justify-content: space-between;
-  background-color: rgb(51, 21, 65);
   border-style: solid;
-  border-color: rgb(102, 21, 139);
   list-style-type: none;
   overflow: hidden;
 }
@@ -119,6 +162,19 @@ html body .logo {
   margin: 0;
   padding: 0;
   line-height: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: purple;
+}
+
+p {
+  color: rgb(230, 163, 230);
 }
 
 /*# sourceMappingURL=style.css.map */

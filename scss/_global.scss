@@ -8,21 +8,12 @@ html {
   body {
     font-family: "Montserrat", sans-serif;
     color: white;
-    background-color: "rgb(85,7,115)";
     background: linear-gradient(
       80deg,
       rgba(85, 7, 115, 1) 0%,
       rgba(182, 38, 198, 1) 35%,
       rgba(223, 207, 221, 1) 100%
     );
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    }
     .logo {
       width: 20%;
     }
@@ -30,6 +21,29 @@ html {
       .logo {
         width: 154px;
         height: 154px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .table {
+        width: 98%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    @media screen and (min-width: 576px) {
+      .p {
+        font-size: smaller;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .p {
+        font-size: medium;
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .p {
+        font-size: large;
       }
     }
   }
