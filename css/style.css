@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .form_title {
@@ -69,35 +69,7 @@ html body {
 }
 html body .logo {
   width: 20%;
-}
-@media screen and (min-width: 768px) {
-  html body .logo {
-    width: 154px;
-    height: 154px;
-  }
-}
-@media screen and (min-width: 768px) {
-  html body .table {
-    width: 98%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 576px) {
-  html body .p {
-    font-size: smaller;
-  }
-}
-@media screen and (min-width: 768px) {
-  html body .p {
-    font-size: medium;
-  }
-}
-@media screen and (min-width: 992px) {
-  html body .p {
-    font-size: large;
-  }
+  height: auto;
 }
 
 .navbar {
@@ -157,24 +129,73 @@ html body .logo {
   padding: 0px;
 }
 
-.imagen_principal {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
   background: purple;
 }
 
 p {
   color: rgb(230, 163, 230);
+}
+
+@media screen and (min-width: 375px) {
+  html body .tableau {
+    font-size: x-small;
+  }
+  html body .p {
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+  }
+  html body .mapa {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  html body .p {
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+  }
+  html body .tableau {
+    font-size: small;
+  }
+  html body .mapa {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  html body .logo {
+    width: 154px;
+    height: 154px;
+  }
+  html body .tableau {
+    font-size: medium;
+  }
+  html body .p {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+  }
+  html body .mapa {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  html body .p {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+  }
+  html body .table {
+    font-size: large;
+  }
+  html body .mapa {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
